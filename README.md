@@ -11,7 +11,7 @@
 
 Поэтому я набросал простой скрипт для Tampermonkey, чтобы перехватить запрос на скачивание.
 
-> Скрипт можно найти в репозитории: `[./scripts/getlink.user.js](https://raw.githubusercontent.com/zarazaex69/m1ncertrazvedka/master/scripts/getlink.user.js)`
+> Скрипт можно найти в репозитории: [./scripts/getlink.user.js](https://raw.githubusercontent.com/zarazaex69/m1ncertrazvedka/master/scripts/getlink.user.js)
 
 После запуска скрипт показал, что кнопка не ведет на файл напрямую, а вызывает код из вот этого JavaScript-файла:
 
