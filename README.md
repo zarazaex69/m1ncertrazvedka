@@ -29,7 +29,7 @@
 - `https://gu-st.ru/content/lending/linux_russian_trusted_root_ca_pem.zip`
 - `https://gu-st.ru/content/lending/russian_trusted_sub_ca_pem.zip`
 
-> **Примечание:** Эти ==ссылки могут со временем умереть==. Для автоматизации поиска можно использовать скрипт ==(который позже тоже может умереть)== `[./scripts/deob.go](https://raw.githubusercontent.com/zarazaex69/m1ncertrazvedka/master/scripts/deob.go)`. Но все нужные файлы уже лежат в этом репозитории в папке `[./certs](https://raw.githubusercontent.com/zarazaex69/m1ncertrazvedka/master/certs)`.
+> **Примечание:** Эти ==ссылки могут со временем умереть==. Для автоматизации поиска можно использовать скрипт ==(который позже тоже может умереть)== `[./scripts/deob.go](https://raw.githubusercontent.com/zarazaex69/m1ncertrazvedka/master/scripts/deob.go)`. Но все нужные файлы уже лежат в этом репозитории в папке [./certs](https://github.com/zarazaex69/m1ncertrazvedka/certs).
 
 Скачиваем файлы с помощью `wget`:
 
@@ -86,10 +86,10 @@ openssl x509 -in russian_trusted_sub_ca_pem.crt -text -noout
 ![Вывод команды openssl](https://raw.githubusercontent.com/zarazaex69/m1ncertrazvedka/master/assets/Pasted%20image%2020251112154803.png)
 
 Но если разобраться, все становится ясно. Полные протоколы допроса на момент написания статьи лежат здесь:
-- `[./certs/interrogation/root_rsa.txt](https://raw.githubusercontent.com/zarazaex69/m1ncertrazvedka/master/certs/interrogation/root_rsa.txt)`
-- `[./certs/interrogation/sub_rsa.txt](https://raw.githubusercontent.com/zarazaex69/m1ncertrazvedka/master/certs/interrogation/sub_rsa.txt)`
-- `[./certs/interrogation/root_gost.txt](https://raw.githubusercontent.com/zarazaex69/m1ncertrazvedka/master/certs/interrogation/root_gost.txt)`
-- `[./certs/interrogation/sub_gost.txt](https://raw.githubusercontent.com/zarazaex69/m1ncertrazvedka/master/certs/interrogation/sub_gost.txt)`
+- [./certs/interrogation/root_rsa.txt](https://raw.githubusercontent.com/zarazaex69/m1ncertrazvedka/master/certs/interrogation/root_rsa.txt)
+- [./certs/interrogation/sub_rsa.txt](https://raw.githubusercontent.com/zarazaex69/m1ncertrazvedka/master/certs/interrogation/sub_rsa.txt)
+- [./certs/interrogation/root_gost.txt](https://raw.githubusercontent.com/zarazaex69/m1ncertrazvedka/master/certs/interrogation/root_gost.txt)
+- [./certs/interrogation/sub_gost.txt](https://raw.githubusercontent.com/zarazaex69/m1ncertrazvedka/master/certs/interrogation/sub_gost.txt)
 
 ## 🍿 Этап 4: Промежуточные выводы и структура
 
