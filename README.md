@@ -29,7 +29,7 @@
 - `https://gu-st.ru/content/lending/linux_russian_trusted_root_ca_pem.zip`
 - `https://gu-st.ru/content/lending/russian_trusted_sub_ca_pem.zip`
 
-> **Примечание:** Эти ==ссылки могут со временем умереть==. Для автоматизации поиска можно использовать скрипт ==(который позже тоже может умереть)== `[./scripts/deob.go](https://raw.githubusercontent.com/zarazaex69/m1ncertrazvedka/master/scripts/deob.go)`. Но все нужные файлы уже лежат в этом репозитории в папке [./certs](https://github.com/zarazaex69/m1ncertrazvedka/certs).
+> **Примечание:** Эти cсылки могут со временем умереть. Для автоматизации поиска можно использовать скрипт (который позже тоже может умереть) [./scripts/deob.go](https://raw.githubusercontent.com/zarazaex69/m1ncertrazvedka/master/scripts/deob.go). Но все нужные файлы уже лежат в этом репозитории в папке [./certs](https://github.com/zarazaex69/m1ncertrazvedka/certs).
 
 Скачиваем файлы с помощью `wget`:
 
